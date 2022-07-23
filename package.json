@@ -1,12 +1,12 @@
 {
-  "name": "@kirkaswap/godwoken-blocks",
+  "name": "@kirkaswap/blocks-subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create-gw": "graph create --node https://gw-testnet-graph.kirkaswap.com/rpc/ kirkaswap/godwoken-blocks",
-    "remove-gw": "graph remove --node https://gw-testnet-graph.kirkaswap.com/rpc/ kirkaswap/godwoken-blocks",
-    "deploy-gw": "graph deploy --debug --node https://gw-testnet-graph.kirkaswap.com/rpc/ --ipfs https://gw-testnet-graph.kirkaswap.com/ipfs/ kirkaswap/godwoken-blocks"
+    "create-gw": "graph create --node https://gw-testnet-graph.kirkaswap.com/rpc/ kirkaswap/blocks-subgraph",
+    "remove-gw": "graph remove --node https://gw-testnet-graph.kirkaswap.com/rpc/ kirkaswap/blocks-subgraph",
+    "deploy-gw": "graph deploy --debug --node https://gw-testnet-graph.kirkaswap.com/rpc/ --ipfs https://gw-testnet-graph.kirkaswap.com/ipfs/ kirkaswap/blocks-subgraph"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",

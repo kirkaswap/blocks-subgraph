@@ -1,4 +1,4 @@
-# Godwoken Blocks
+# Subgraph for Blocks
 
 Subgraph to collect block info
 
